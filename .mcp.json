@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cloudflare-dex-analysis": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://dex.mcp.cloudflare.com/mcp"]
+    },
+    "cloudflare-workers-builds": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://builds.mcp.cloudflare.com/mcp"]
+    }
+  }
+}
